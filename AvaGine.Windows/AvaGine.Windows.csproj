@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Evergine.DirectX11" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.HLSLEverywhere" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.XAudio2" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Forms" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Targets" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Targets.Windows" Version="TEMPLATE_EVERGINE_VERSION" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\AvaGine\AvaGine.csproj" />
+    </ItemGroup>
+
+    <ItemGroup Condition="$(DefineConstants.Contains('EVERGINE_EDITOR'))">
+        <ProjectReference Include="..\AvaGine.Editor\AvaGine.Editor.csproj" />
+    </ItemGroup>
+</Project>

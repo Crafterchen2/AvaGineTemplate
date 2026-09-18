@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <GenerateEvergineContent>True</GenerateEvergineContent>
+        <GenerateEvergineAssets>False</GenerateEvergineAssets>
+        <GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Evergine.Common" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Components" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Framework" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Mathematics" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Bullet" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.Targets" Version="TEMPLATE_EVERGINE_VERSION" />
+        <PackageReference Include="Evergine.CodeScenes" Version="TEMPLATE_EVERGINE_VERSION" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaGine.Avalonia", "AvaGine.Avalonia\AvaGine.Avalonia.csproj", "{EB41A6A2-5A36-4AC8-86B2-E385A06572F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaGine", "AvaGine\AvaGine.csproj", "{5E66542E-1CC5-4102-B4C1-AAC1D333FD1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB41A6A2-5A36-4AC8-86B2-E385A06572F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB41A6A2-5A36-4AC8-86B2-E385A06572F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB41A6A2-5A36-4AC8-86B2-E385A06572F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB41A6A2-5A36-4AC8-86B2-E385A06572F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E66542E-1CC5-4102-B4C1-AAC1D333FD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E66542E-1CC5-4102-B4C1-AAC1D333FD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E66542E-1CC5-4102-B4C1-AAC1D333FD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E66542E-1CC5-4102-B4C1-AAC1D333FD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

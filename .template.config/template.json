@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Benjamin Decker",
+  "classifications": [ "Engine" ],
+  "identity": "AvaGine.Minimal",
+  "name": "AvaGine: Minimal Setup",
+  "shortName": "avagine-minimal",
+  "sourceName":"AvaGine",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "symbols": {
+    "EvergineVersion": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue" : "2026.5.26.2553",
+      "replaces": "TEMPLATE_EVERGINE_VERSION",
+      "description": "Evergine Version."
+    },
+    "AvaloniaVersion": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue" : "12.1.2",
+      "replaces": "TEMPLATE_AVALONIA_VERSION",
+      "description": "Avalonia Version."
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            "README.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

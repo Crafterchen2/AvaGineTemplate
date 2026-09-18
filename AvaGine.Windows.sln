@@ -1,0 +1,33 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaGine", "AvaGine\AvaGine.csproj", "{4320FE02-1EDC-4C8F-84A8-2AE35E299BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaGine.Editor", "AvaGine.Editor\AvaGine.Editor.csproj", "{1997A0C5-0BF0-4B7A-A6D8-1949C94F374C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaGine.Windows", "AvaGine.Windows\AvaGine.Windows.csproj", "{0DD743BE-F7E6-41D7-A7DB-1EE41C0DB1A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4320FE02-1EDC-4C8F-84A8-2AE35E299BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4320FE02-1EDC-4C8F-84A8-2AE35E299BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4320FE02-1EDC-4C8F-84A8-2AE35E299BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4320FE02-1EDC-4C8F-84A8-2AE35E299BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1997A0C5-0BF0-4B7A-A6D8-1949C94F374C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1997A0C5-0BF0-4B7A-A6D8-1949C94F374C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1997A0C5-0BF0-4B7A-A6D8-1949C94F374C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1997A0C5-0BF0-4B7A-A6D8-1949C94F374C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD743BE-F7E6-41D7-A7DB-1EE41C0DB1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD743BE-F7E6-41D7-A7DB-1EE41C0DB1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD743BE-F7E6-41D7-A7DB-1EE41C0DB1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD743BE-F7E6-41D7-A7DB-1EE41C0DB1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F55AE45-44C9-3218-35DC-321CAB321EB9}
+	EndGlobalSection
+EndGlobal

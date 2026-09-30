@@ -29,12 +29,10 @@
   },
   "sources": [
     {
-      "modifiers": [
-        {
-          "exclude": [
-            "README.md"
-          ]
-        }
+      "exclude": [
+        "README.md",
+        "**/.git/**",
+        "LICENSE.md"
       ]
     }
   ]
